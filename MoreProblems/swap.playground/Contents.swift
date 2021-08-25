@@ -19,3 +19,8 @@ for i in  0..<arrayInt.count {
 print("\nSorted Array:")
 arrayInt.map({print($0,terminator: " ")})
 
+
+
+let sortedResult = arrayInt.sorted { $0 < $1}
+
+print("Sorted Result \(sortedResult)")
